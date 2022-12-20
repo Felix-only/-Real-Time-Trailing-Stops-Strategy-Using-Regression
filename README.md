@@ -25,17 +25,17 @@ Install the necessary python packages
     - Return (𝑅𝑖=(𝑃𝑖−𝑃𝑖−1)/𝑃i-1)
 
       ***Example of cleaned EUR-USD quotes (updated every 6 min):*** 
-      <img src="./images/agg_table_image.png" width =550>
+      <img src="./images/agg_table_image.png" width =600>
 2. Trained and stored optimized regression models for each currency pair. (The models performance wasn't optimum due to small amount of training data.)
 3. Built an optimized real-time trailing-stop-strategy, and used our model predictions to make real-time investment decisions. We used go long and go short strategys, and we will make investment decisions base on our model predictions, modeling errors, and actual returns.
 
       ***Example of EUR-USD models prediction table (updated every 6 min):***
 
-      <img src="./images/ml_table_image.png" width =400>
+      <img src="./images/ml_table_image.png" width =450>
 
       
       ***Example of EUR-USD trailing-stop investment table (Go Long) (updated every hour):***
-      <img src="./images/investment_result.png" width =350>
+      <img src="./images/investment_result.png" width =450>
 
 For the details of codes, Checked out [README.MD](https://github.com/Felix-only/-Real-Time-Trailing-Stops-Strategy-Using-Regression/blob/master/notebooks/README.md) in the **notebooks folder**.
 
