@@ -24,11 +24,11 @@ Install the necessary python packages
     - Fractal dimension (FD) calculated with a counting process on a modified Ketner Channel 
     - Return (𝑅𝑖=(𝑃𝑖−𝑃𝑖−1)/𝑃i-1)
 2. Trained and stored optimized regression models for each currency pair. (The models performance wasn't optimum due to small amount of training data.)
-3. Built an optimized real-time trailing-stop-strategy, and used our model prediction to make real-time investment decisions. We used go long and go short strategys, and we will make investment decision base on our model predictions, our modeling errors, and our actual returns.
+3. Built an optimized real-time trailing-stop-strategy, and used our model prediction to make real-time investment decisions. We used go long and go short strategys, and we will make investment decisions base on our model predictions, modeling errors, and actual returns.
 
-For details of codes, Checked out [README.MD](https://github.com/Felix-only/-Real-Time-Trailing-Stops-Strategy-Using-Regression/blob/master/notebooks/README.md) in the **notebooks folder**.
+For the details of codes, Checked out [README.MD](https://github.com/Felix-only/-Real-Time-Trailing-Stops-Strategy-Using-Regression/blob/master/notebooks/README.md) in the **notebooks folder**.
 
-The **output_csv folder** contains the 10 hours of Forex currencies investments simulation results.
+The **output_csv folder** contains 10 hours of Forex currencies investments simulation results.
 
 For the detail schema of the project, check out the PDF documents in the **detail_descriptions** folder.
 
