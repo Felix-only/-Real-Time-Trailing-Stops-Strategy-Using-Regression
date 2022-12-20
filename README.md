@@ -28,7 +28,7 @@ Install the necessary python packages
 
 For details of codes, Checked out [README.MD](https://github.com/Felix-only/-Real-Time-Trailing-Stops-Strategy-Using-Regression/blob/master/notebooks/README.md) in the **notebooks folder**.
 
-The **output_csv folder** contains the 10 hours Forex currencies investments simulation results.
+The **output_csv folder** contains the 10 hours of Forex currencies investments simulation results.
 
 
 
