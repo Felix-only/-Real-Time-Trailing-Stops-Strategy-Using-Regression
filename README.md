@@ -24,17 +24,18 @@ Install the necessary python packages
     - Fractal dimension (FD) calculated with a counting process on a modified Ketner Channel 
     - Return (𝑅𝑖=(𝑃𝑖−𝑃𝑖−1)/𝑃i-1)
 
-      ***Example of cleaned EUR-USD quotes:*** 
-      ![](https://raw.githubusercontent.com/Felix-only/-Real-Time-Trailing-Stops-Strategy-Using-Regression/master/images/agg_table_image.png)
+      ***Example of cleaned EUR-USD quotes (updated every 6 min):*** 
+      <img src="./images/agg_table_image.png" width =450>
 2. Trained and stored optimized regression models for each currency pair. (The models performance wasn't optimum due to small amount of training data.)
 3. Built an optimized real-time trailing-stop-strategy, and used our model predictions to make real-time investment decisions. We used go long and go short strategys, and we will make investment decisions base on our model predictions, modeling errors, and actual returns.
 
-      ***Example of EUR-USD models prediction table:***
-      ![](https://raw.githubusercontent.com/Felix-only/-Real-Time-Trailing-Stops-Strategy-Using-Regression/master/images/ml_table_image.png)
+      ***Example of EUR-USD models prediction table (updated every 6 min):***
+
+      <img src="./images/ml_table_image.png" width =350>
 
       
-      ***Example of EUR-USD trailing stop investment table(Go Long):***
-      ![](https://raw.githubusercontent.com/Felix-only/-Real-Time-Trailing-Stops-Strategy-Using-Regression/master/images/investment_result.png)
+      ***Example of EUR-USD trailing-stop investment table (Go Long) (updated every hour):***
+      <img src="./images/investment_result.png" width =350>
 
 For the details of codes, Checked out [README.MD](https://github.com/Felix-only/-Real-Time-Trailing-Stops-Strategy-Using-Regression/blob/master/notebooks/README.md) in the **notebooks folder**.
 
