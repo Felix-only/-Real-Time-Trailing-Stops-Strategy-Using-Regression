@@ -30,6 +30,7 @@ For details of codes, Checked out [README.MD](https://github.com/Felix-only/-Rea
 
 The **output_csv folder** contains the 10 hours of Forex currencies investments simulation results.
 
+For the detail schema of the project, check out the PDF documents in the **detail_descriptions** folder.
 
 
 
