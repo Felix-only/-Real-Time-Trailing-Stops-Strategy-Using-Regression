@@ -15,7 +15,7 @@ Install the necessary python packages
     
 ## Project Description 
 
-1. Collected 40 hours of 8 currency pairs quotes data through polygon API. Cleaned, calculated, and updated key features in real-time.
+1. Collected 40 hours (144,000 rows of raw data) of 8 currency pairs quotes through polygon API. Cleaned, calculated, and updated key features in real time every 6 minutes. 
     - Timestamp (𝑇)
     - Mean price (𝑃),
     - Maximum price (MAX),
