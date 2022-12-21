@@ -15,7 +15,7 @@ Install the necessary python packages
     
 ## Project Description 
 
-1. Collected 40 hours (144,000 rows of raw data) of 8 currency pairs quotes through polygon API. Cleaned, calculated, and updated key features in real time every 6 minutes. 
+1. Collected 40 hours (144,000 rows of raw data) of 8 currency pairs quotes through polygon API. Cleaned, calculated, and updated key features to databases in real time every 6 minutes. 
     - Timestamp (𝑇)
     - Mean price (𝑃),
     - Maximum price (MAX),
@@ -26,8 +26,17 @@ Install the necessary python packages
 
       ***Example of cleaned EUR-USD quotes (updated every 6 min):*** 
       <img src="./images/agg_table_image.png" width =600>
-2. Trained each currency pair, and stored the optimized regression models. (The models performance wasn't optimum due to small amount of training data (400 data after cleaning and aggregation).)
-3. Built an optimized real-time trailing-stop-strategy, and used our model predictions to make real-time investment decisions. We used the go long and go short strategies, and we will make hourly investment decisions based on our model predictions, modeling errors, and actual returns.
+1. Trained each currency pair, and stored the optimized regression models. (The models performance wasn't optimum may due to small amount of training data (400 data after cleaning and aggregation)). I proceeded the modeling steps presented in [Trailing Stops 2](./detail_descriptions/Trailing%20Stops%202.pdf).
+    - I additionally explored the assumption that the clustered Volaility and Fractal Dimension have a linear relationship with the currency returns when presenting in big data. I did a exploratory data analysis on 8 currency pairs that I garthered, and found the optimal number of clusters using the Elbow Method, and finally I used the mean fix rate, the clustered Volatility and Fractal Dimension to model the return.  
+
+    <img src="./images/vol_k_cluster.png" width =450>
+    <img src="./images/fd_k_cluster.png" width =450>
+    
+    - My result indicates that the clusters of Volatility and Fractal Dimension did not show linear relationship with the return. Therefore, the model did not perform great in predictions may due to reasons like the lack of data.
+    
+
+
+1. Built an optimized real-time trailing-stop strategy, and used our model predictions to make real-time investment decisions. We used the go long and go short strategies, and we will make hourly investment decisions based on our model predictions, modeling errors, and actual returns. Details of the trailing-stop strategy in [Trailing Stops 1](./detail_descriptions/Trailing%20Stops%201.pdf) and [Trailing Stops 3](./detail_descriptions/Trailing%20Stops%203.pdf)
 
       ***Example of EUR-USD models prediction table (updated every 6 min):***
 
