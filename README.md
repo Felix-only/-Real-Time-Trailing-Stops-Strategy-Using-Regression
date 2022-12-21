@@ -1,7 +1,7 @@
 
 # Real-Time Traliling Stops Strategy Using Linear Regression 
 
-**Objective:** Collected and trained Forex Currency data to build an optimize trailing-stops strategy to make real-time investment decisions.
+**Objective:** Collected and trained Forex Currency data to build an optimized trailing-stops strategy to make real-time investment decisions.
 
 
 
@@ -34,7 +34,7 @@ Install the necessary python packages
       <img src="./images/ml_table_image.png" width =450>
 
       
-      ***Example of EUR-USD trailing-stop investment table (Go Long) (updated every hour):***
+      ***Example of EUR-USD trailing-stop investment strategy table (Go Long) (updated every hour):***
       <img src="./images/investment_result.png" width =450>
 
 For the details of codes, Checked out [README.MD](https://github.com/Felix-only/-Real-Time-Trailing-Stops-Strategy-Using-Regression/blob/master/notebooks/README.md) in the **notebooks folder**.
