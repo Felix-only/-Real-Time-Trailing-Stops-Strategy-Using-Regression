@@ -26,7 +26,7 @@ Install the necessary python packages
 
       ***Example of cleaned EUR-USD quotes (updated every 6 min):*** 
       <img src="./images/agg_table_image.png" width =600>
-2. Trained each currency pair, and stored the optimized regression models. (The models performance wasn't optimum due to small amount of training data.)
+2. Trained each currency pair, and stored the optimized regression models. (The models performance wasn't optimum due to small amount of training data (400 data after cleaning and aggregation).)
 3. Built an optimized real-time trailing-stop-strategy, and used our model predictions to make real-time investment decisions. We used go long and go short strategys, and we will make hourly investment decisions base on our model predictions, modeling errors, and actual returns.
 
       ***Example of EUR-USD models prediction table (updated every 6 min):***
