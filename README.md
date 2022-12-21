@@ -34,7 +34,7 @@ Install the necessary python packages
       <img src="./images/ml_table_image.png" width =450>
 
       
-      ***Example of EUR-USD trailing-stop investment table (Go Long) (updated every hour):***
+      ***Example of EUR-USD trailing-stop investment strategy table (Go Long) (updated every hour):***
       <img src="./images/investment_result.png" width =450>
 
 For the details of codes, Checked out [README.MD](https://github.com/Felix-only/-Real-Time-Trailing-Stops-Strategy-Using-Regression/blob/master/notebooks/README.md) in the **notebooks folder**.
