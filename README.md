@@ -1,7 +1,7 @@
 
 # Real-Time Traliling Stops Strategy Using Linear Regression 
 
-**Objective:** Collected and trained Forex Currency data to build an optimize trailing-stops strategy to make real-time investment decisions.
+**Objective:** Collected and trained Forex Currency data to build an optimized trailing-stops strategy to make real-time investment decisions.
 
 
 
