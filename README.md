@@ -27,9 +27,9 @@ Install the necessary python packages
       ***Example of cleaned EUR-USD quotes (updated every 6 min):*** 
       <img src="./images/agg_table_image.png" width =600>
 1. Trained each currency pair, and stored the optimized regression models. (The models performance wasn't optimum may due to small amount of training data (400 data after cleaning and aggregation)). I proceeded the modeling steps presented in [Trailing Stops 2](./detail_descriptions/Trailing%20Stops%202.pdf).
-    - I additionally explored the assumption that whether the clustered volatility and Fractal Dimension have a linear relationship with the currency returns when presented in big data. I did an exploratory data analysis on 8 currency pairs that I gathered, and found the optimal number of clusters using the Elbow Method.  
-     <img src="./images/vol_k_cluster.png" width =450>
-     <img src="./images/fd_k_cluster.png" width =450> 
+    - I additionally explored the assumption that whether the clustered volatility and Fractal Dimension have a linear relationship with the currency returns when presented in big data. I did an exploratory data analysis on 8 currency pairs that I gathered, and found the optimal number of clusters using the Elbow Method.
+      <img src="./images/vol_k_cluster.png" width =450>
+      <img src="./images/fd_k_cluster.png" width =450> 
     
     - I used the mean fix rate, the clustered Volatility and Fractal Dimension to model the return. My modeling result indicates that there are no linear relationships. The model did not perform great may due to reasons like the lack of data. In order to form clear clusters, we need to collect large-scale data, and that's beyond the scope of this project. However, for future improvement, I can download more data by using AWS Lambda and cloud virtual instances (AWS or GCP) to schedule and run my code over the cloud.
 
