@@ -26,7 +26,7 @@ Install the necessary python packages
 
       ***Example of cleaned EUR-USD quotes (updated every 6 min):*** 
       <img src="./images/agg_table_image.png" width =600>
-1. Trained each currency pair, and stored the optimized regression models. The models performance wasn't optimum may due to small amount of training data, 400 data after cleaning and aggregation. According to The Law of Large Numbers, if we only have a small sample for experiments, it's very possible that our experimental probability could be different that our theoretical probility. I proceeded the modeling steps presented in [Trailing Stops 2](./detail_descriptions/Trailing%20Stops%202.pdf).
+1. Trained each currency pair, and stored the optimized regression models. The models performance wasn't optimum may due to small amount of training data, 400 data after cleaning and aggregation. According to The Law of Large Numbers, if we only have a small sample for experiments, it's very possible that our experimental probability could be different than our theoretical probility. I proceeded the modeling steps presented in [Trailing Stops 2](./detail_descriptions/Trailing%20Stops%202.pdf).
     - I additionally explored the assumption that whether the clustered volatility and Fractal Dimension have a linear relationship with the currency returns. I did an exploratory data analysis on 8 currency pairs that I gathered, and found the optimal number of clusters using the Elbow Method.
       <img src="./images/vol_k_cluster.png" width =450>
       <img src="./images/fd_k_cluster.png" width =450> 
