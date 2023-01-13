@@ -21,7 +21,7 @@ Install the necessary python packages
     - Maximum price (MAX),
     - Minimum price (MIN),
     - Volatility (VOL = (MAX–MIN)/𝑃),
-    - Fractal dimension (FD) calculated with a counting process on a modified Ketner Channel 
+    - Fractal dimension (FD) calculated with a counting process on a modified [Keltner Channel.](./detail_descriptions/Keltner%20Channel%20Calculation.pdf) 
     - Return (𝑅𝑖=(𝑃𝑖−𝑃𝑖−1)/𝑃i-1)
 
       ***Example of cleaned EUR-USD quotes (updated every 6 min):*** 
