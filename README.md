@@ -47,7 +47,7 @@ Install the necessary python packages
       ***Example of USD-AUD trailing-stop investment strategy table (Go short) (updated every hour):***
       <img src="./images/investment_short.png" width =450>
 
-For the details of codes, Checked out [README.MD](https://github.com/Felix-only/-Real-Time-Trailing-Stops-Strategy-Using-Regression/blob/master/notebooks/README.md) in the **notebooks folder**.
+For the details of codes, Checked out [README.MD](https://github.com/Felix-only/-Real-Time-Trailing-Stops-Strategy-Using-Regression/blob/master/python/README.md) in the **notebooks folder**.
 
 The [**output_csv folder**](./output_csv) contains 10 hours of Forex currencies investments simulation results.
 
