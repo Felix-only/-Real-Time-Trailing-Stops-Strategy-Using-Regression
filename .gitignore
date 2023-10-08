@@ -1,4 +1,5 @@
-notebooks/logs.log 
-notebooks/testing.ipynb
+python/logs.log 
+python/__pycache__
 
 venv
+logs.log
