@@ -3,6 +3,7 @@
 
 **Objective:** Collected and trained Forex Currency data to build an optimized trailing-stops strategy to make real-time investment decisions.
 
+<img src="./images/keltner-channel-with-alert.png" width =600>
 
 
 ## Installation
